@@ -2,7 +2,7 @@
 
 O projeto foi feito juntamente com as aulas da [Imersão Alura](https://cursos.alura.com.br/imersao). A ideia do projeto foi fazer um site onde as pessoas possam ver os diversos tipos de aves que habitam o parque.
 
-| :placard: Vitrine.Dev |     |
+| 💡 Vitrine.Dev |     |
 | -------------  | --- |
 | :sparkles: Nome        | **Espécies de aves (Parque das aves)**
 | :label: Tecnologias | <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML5"/></code>,<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="CSS"/></code>, <code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="Javascript"/></code>
