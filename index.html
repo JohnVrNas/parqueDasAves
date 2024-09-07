@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parque das aves</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="shortcut icon" href="./src/images/ico/bird.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>Pesquise as nossas aves</h1>
+    </header>
+
+    <main>
+
+        <section>
+            <div class="search-container">
+                <input id="campo-pesquisa" type="text" placeholder="Digite a ave aqui">
+                <button onclick="pesquisar()">
+                    <img  src="src/images/ico/Loupesvg.svg" alt="Lupa" height="20" width="20">
+                </button>
+            </div>
+        </section>
+
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+        </section>
+    
+    </main>
+
+    <footer>
+        <p>&copy; Site criado por <a class="linkFooter" href="https://github.com/johnvrnas" target="_blank"
+                rel="noopener noreferrer">João Rodrigues.</a> Com a ajuda da <a class="linkFooter"
+                href="https://www.alura.com.br/imersao-dev-google-gemini" target="_blank"
+                rel="noopener noreferrer">Imersão Dev da Alura e Google Gemini</a></p>
+    </footer>
+
+    <script src="src/js/dados.js"></script>
+    <script src="src/js/main.js"></script>
+    <script>
+        // ... (código JavaScript existente)
+    
+        const campoPesquisa = document.getElementById("campo-pesquisa");
+    
+        campoPesquisa.addEventListener('keypress', (event) => {
+            if (event.key === 'Enter') {
+                pesquisar();
+            }
+        });
+    </script>
+</body>
+
+</html>
