@@ -1,10 +1,10 @@
-# Espécies do Parque das Aves
+# Pokedex
 
 O projeto foi feito juntamente com as aulas da [Imersão Alura](https://cursos.alura.com.br/imersao). A ideia do projeto foi fazer um site onde as pessoas possam ver os diversos tipos de aves que habitam o parque.
 
 | 💡 Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **Espécies de aves (Parque das aves)**
+| :sparkles: Nome        | **Pokedex**
 | :label: Tecnologias | <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML5"/></code>,<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="CSS"/></code>, <code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="Javascript"/></code>
 | :rocket: URL         | [Acesse o site aqui!](https://johnvrnas.github.io/parqueDasAves/)
 
@@ -15,16 +15,28 @@ O projeto foi feito juntamente com as aulas da [Imersão Alura](https://cursos.a
 
 ## Detalhes do projeto
 
-Bem-vindo(a) ao **Espécies do Parque das aves**. Permite que os usuários pesquisem por **aves e suas peculiaridades**. O projeto foi pensado em facilitar a vida do usuário que irá visitar o parque, podendo acompanhar todas as espécies de animais presentes no ambiente.
+## Pokedex Interativa
+Estou animado em compartilhar meu mais recente projeto: uma Pokedex interativa que combina HTML, CSS e JavaScript! Este projeto foi desenvolvido com foco na experiência do usuário, oferecendo um tratamento de entrada de dados. 🎮🕹️👾
 
-## **Funcionalidades Principais**
+# Funcionalidades
+Tratamento de entrada: O sistema converte automaticamente o nome do Pokémon para minúsculas, permitindo que o usuário pesquise de forma flexível, mesmo com erros de digitação.
 
-- **Pesquisa de aves por nome científico**: O site possui uma função de busca onde permite que o usuário consigo colocar tanto o nome da ave quanto seu nome científico.
-- **Links para mais informações**: O site ainda está no inicio, portanto, deixei alguns links para páginas externas com informações detalhadas e fotos exuberantes sobre as espécies, visando a facilidade do acesso para mais dados sobre o animal. 
-- **Imagens**: Ao lado de cada texto sobre a ave, contém uma foto da mesma, facilitando a identificação de qual espécie você deve procurar.
----
+Validação de Pokémon: Caso o usuário busque um Pokémon que não exista ou que não tenha foto, uma mensagem clara de "Not Found" é exibida.
 
-## Como Usar
+Limites de pesquisa: Para garantir a precisão, a Pokedex limita as pesquisas entre os Pokémon de 1 a 706, evitando entradas inválidas.
 
-1. **Buscar espécies**: Utilize a barra de pesquisa no topo da página para digitar o nome ou alguma característica da ave que deseja encontrar.
-2. **Explorar Informações**: O site contém uma rolagem vertical para ter acesso a mais espécies.
+# Aprendizados
+Esse projeto não só melhora minha habilidade em programação web, mas também me permite explorar conceitos de usabilidade e validação. Estou ansioso para compartilhar mais detalhes e aprendizados com a comunidade! 💻✨
+
+# Competências
+HTML5
+CSS
+Análise de erros
+JavaScript
+Criatividade
+Capacidade de organização
+Contribuição
+Sinta-se à vontade para explorar o projeto, abrir issues ou contribuir com melhorias! Vamos aprender e crescer juntos!
+
+Agradecimentos
+Obrigado por conferir meu projeto! Espero que você se divirta explorando a Pokedex tanto quanto eu me diverti construindo-a.
